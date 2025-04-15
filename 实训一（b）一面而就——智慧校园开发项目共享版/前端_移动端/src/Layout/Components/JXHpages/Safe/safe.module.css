@@ -1,0 +1,29 @@
+.title {
+	width: 100vw;
+	height: 7vh;
+	line-height: 6vh;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	/* padding-bottom: 2vh; */
+
+	div {
+		width: 30%;
+		/* border: 1px solid #ccc; */
+		text-align: center;
+		height: 6vh;
+	}
+}
+
+.cLick {  
+	color: rgba(0, 0, 0, 0.6); 
+	border-bottom: 2px solid #ccc;
+}
+
+.onclick {
+	color: #0099ff;
+	border-bottom: #0099ff 2px solid;
+	color: rgb(143, 141, 141);
+	cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.echarts_bgc{
+    background: linear-gradient(to right bottom, #f1f6ff, #c1cfff);
+}
+
+.Echarts5_layout{
+    background: linear-gradient(to right, #f9fbff, #dee4ff);
+}
+
+.Ecahrts5_noneDate{
+    position: absolute;
+    left: 140px;
+}

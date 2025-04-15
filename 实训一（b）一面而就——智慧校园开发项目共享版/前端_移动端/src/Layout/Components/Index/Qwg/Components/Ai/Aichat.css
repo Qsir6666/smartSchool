@@ -1,0 +1,172 @@
+.Aichat{
+    display: flex;
+    flex-direction: column;
+
+}
+.custom-icon{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.ant-welcome{
+    display: flex;
+}
+.ant-welcome-content-wrapper{
+    width: 250px;
+}
+
+
+.ant-welcome-icon{
+    width: 40px;
+    height: 40px;
+}
+.ant-welcome-title{
+    font-size: 15px !important;
+}
+.animated-description{
+    font-size: 12px;
+}
+.Aichat_talk{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* padding-bottom: 60px; */
+    display: flex;
+    flex: 1;
+}
+/* 底部输入框 */
+.Aichat_talk_bottom{
+    position: fixed;
+    bottom: 5px;
+    width: 100% !important;
+    padding: 5px;
+    background-color: white;
+}
+.ant-sender-content{
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+}
+
+
+
+.Aichat_title{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+}
+.Aichat_title_model{
+    height: 35px;
+    background-color: white;
+    box-shadow: 0 4px 6px -4px rgba(101, 101, 101, 0.1); /* 底部柔和阴影 */
+}
+
+.Aichat_talk_model {
+    padding: 0 10px;
+    /* height: 500px; */
+    flex: 1;
+    overflow-y: auto;
+    /* 移动端优化  小于480px时 修改padding和最大高度！！  媒体查询   自适应  */
+    @media (max-width: 480px) {
+      padding: 8px;
+      max-height: 80vh;
+    }
+  }
+
+
+
+
+
+.ant-bubble-content{
+    max-width: 277px !important;
+}
+
+
+  
+  /* 打字指示器动画 */
+  @keyframes typing {
+    0% { opacity: 0.4; transform: translateY(2px); }
+    50% { opacity: 1; transform: translateY(0); }
+    100% { opacity: 0.4; transform: translateY(2px); }
+  }
+  
+  .typing-indicator span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 2px;
+    background: #888;
+    border-radius: 50%;
+    animation: typing 1.4s infinite;
+  }
+  
+  .typing-indicator span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .typing-indicator span:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+
+
+  .aichat-actions{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 6px;
+  }
+
+  .aichat-actions-button1{
+    font-size: 13px;
+    height: 30px;
+    padding: 0 13px;
+
+
+  }
+
+  /* 添加过渡动画 */
+.adm-picker {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+  
+  /* 进场动画 */
+  .adm-picker-enter {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  .adm-picker-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* 离场动画 */
+  .adm-picker-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  .adm-picker-exit-active {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  /* 添加学院选择弹出框的动画效果 */
+  .college-picker-popup {
+    animation: slideUp 0.3s ease-out forwards;
+  }
+
+  .college-picker-popup-exit {
+    animation: slideDown 0.3s ease-in forwards;
+  }
+
+  .college-close-btn {
+    transition: all 0.2s ease;
+  }
+
+  .college-close-btn:hover {
+    background-color: #e0e0e0 !important;
+    color: #666 !important;
+  }

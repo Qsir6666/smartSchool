@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+<<<<<<< HEAD
+=======
+
+.boxs {
+	width: 100%;
+	height: 100vh;
+	background-color: #dbd5d5;
+}
+
+
+
+>>>>>>> origin/main
+
+.page {
+	background-color: rgb(255, 185, 242);
+	width: 200px;
+	height: 200px;
+    position: relative; 
+	transition: transform 0.3s ease-in-out;
+}
+
+.page-enter {
+	transform: translateX(100%);
+}
+
+.page-enter-active {
+	transform: translateX(0);
+}
+
+.page-exit {
+	transform: translateX(0);
+}
+
+.page-exit-active {
+	transform: translateX(-100%);
+}
+
+
+
+

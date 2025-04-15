@@ -1,0 +1,126 @@
+/* 重置默认样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* 可根据实际情况调整字体等基础样式 */
+    font-family: Arial, sans-serif;
+}
+/* 头部所在的粘性容器 */
+.Sticky {
+    position: sticky;
+    top: 0; /* 固定在顶部 */
+    z-index: 100; /* 确保层级足够高 */
+    background-color: white; /* 假设头部背景色为白色 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* 可添加阴影增强视觉效果 */
+}
+.navbarOne {
+    /* 原有的头部样式，可按需调整 */
+    margin: 0;
+}
+.boxOne {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    border-top: 1px solid rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+}
+.boxUl {
+    width: 90%;
+    height: 85%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    text-align: center;
+}
+.boxUl li {
+    height: 100%;
+    line-height: 40px;
+}
+/* 内容区域容器 */
+.box {
+    width: 100vw;
+    min-height: 100vh;
+    padding-bottom: 60px;
+    background-color: rgb(242, 242, 242);
+    margin-top: 100px;
+    position: relative;
+    /* 确保内容滚动时不会影响头部 */
+    overflow-y: auto; 
+}
+.boxTow {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.head {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.headLeft {
+    width: 50%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(228, 228, 228);
+}
+.headRight {
+    width: 50%;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headFont {
+    border-radius: 50px;
+    padding: 10px 10px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transform: rotate(-35deg);
+}
+.buttom {
+    width: 100%;
+    line-height: 30px;
+    position: relative;
+}
+.li_active {
+    color: #05a8ff;
+    border-bottom: 2px solid #0099ff;
+    padding-bottom: 5px;
+    box-sizing: border-box;
+}
+.erwei {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+}
+.aaaaaa{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+/* 响应式布局 */
+@media (max-width: 768px) {
+   .boxTow {
+        width: 90%;
+    }
+}

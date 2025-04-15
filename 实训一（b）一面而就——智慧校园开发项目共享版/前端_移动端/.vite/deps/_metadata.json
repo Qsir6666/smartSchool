@@ -1,0 +1,64 @@
+{
+  "hash": "cd764a1f",
+  "configHash": "b6d90a29",
+  "lockfileHash": "f0af7ecd",
+  "browserHash": "668f4313",
+  "optimized": {
+    "react/jsx-dev-runtime": {
+      "src": "../../node_modules/react/jsx-dev-runtime.js",
+      "file": "react_jsx-dev-runtime.js",
+      "fileHash": "662c26c9",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "ebdf86ef",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "a8143a4a",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "8201d018",
+      "needsInterop": false
+    },
+    "antd-mobile": {
+      "src": "../../node_modules/antd-mobile/es/index.js",
+      "file": "antd-mobile.js",
+      "fileHash": "e7a9d1ea",
+      "needsInterop": false
+    },
+    "antd-mobile-icons": {
+      "src": "../../node_modules/antd-mobile-icons/es/index.js",
+      "file": "antd-mobile-icons.js",
+      "fileHash": "12e9eb96",
+      "needsInterop": false
+    },
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/development/index.mjs",
+      "file": "react-router.js",
+      "fileHash": "2da3cbfb",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-Y6E2XAD5": {
+      "file": "chunk-Y6E2XAD5.js"
+    },
+    "chunk-ALMMXTNP": {
+      "file": "chunk-ALMMXTNP.js"
+    },
+    "chunk-N2PIJUP6": {
+      "file": "chunk-N2PIJUP6.js"
+    },
+    "chunk-APQ7GZNM": {
+      "file": "chunk-APQ7GZNM.js"
+    }
+  }
+}

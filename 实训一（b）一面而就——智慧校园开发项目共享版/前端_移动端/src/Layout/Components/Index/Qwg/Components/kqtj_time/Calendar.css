@@ -1,0 +1,97 @@
+.calendar-container {
+    width: 45%;
+    min-width: 160px;
+    max-width: 200px;
+    font-family: -apple-system, BlinkMacSystemFont;
+  }
+  
+  .mini-calendar {
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    padding: 4px 16px 5px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+  }
+  
+  .calendar-header,
+  .weekday,
+  .calendar-day {
+    font-weight: 600; 
+  }
+  
+  .calendar-header {
+    margin-bottom: 2px;
+    color: #4E84E9;
+    letter-spacing: -0.3px;
+    font-size: 13.5px;
+    padding-left: 3px;
+  }
+  
+
+  .weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    margin-bottom: 1px;
+  }
+  
+  .weekday {
+    font-size: 12px;
+    text-align: center;
+  }
+  
+
+  .weekday:nth-child(1),
+  .weekday:nth-child(7) {
+    color: #A5A7A2;      /* 周末颜色 */
+  }
+  
+  /* 周一至周五样式 */
+  .weekday:nth-child(n+2):nth-child(-n+6) {
+    color: black;     /* 工作日颜色 */
+  }
+  .calendar-grid {
+    display: grid;
+    gap: 1px;
+  }
+  
+  .calendar-week {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1px;
+  }
+  
+  .calendar-day {
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    font-size: 12px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    position: relative;
+    color: #000; 
+  }
+  
+  /* 周末日期颜色 */
+  .calendar-day:nth-child(1),
+  .calendar-day:nth-child(7) {
+    color: #A5A7A2; 
+  }
+  
+
+  /* 选中日期 */
+  .calendar-day.active {
+    background: #4781FE;
+    color: white !important;
+    border-radius: 6px;
+  }
+
+
+
+
+
+  .ClockLayout{
+    width: 135px !important;
+    height: 135px !important;
+  }

@@ -1,0 +1,135 @@
+.header {
+	position: fixed;
+	top: -30rem;
+	left: -8rem;
+	width: 40rem;
+	height: 40rem;
+	background-color: #00a8ff;
+	border-radius: 50%;
+	z-index: 1000;
+
+}
+
+.content {
+	z-index: 1001;
+	position: fixed;
+	background-color: white;
+	border-radius: 1rem;
+	box-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.3);
+	width: 90%;
+	height: 18%;
+	top: 8%;
+	left: 5%;
+	display: flex;
+	padding: 1rem;
+
+	div:nth-child(1) {
+		width: 20%;
+		margin: 0.7rem 0;
+
+		img {
+			width: 4rem;
+			height: 4rem;
+			border-radius: 50%;
+		}
+	}
+
+	div:nth-child(2) {
+		margin: 1rem 2rem;
+
+		p:nth-child(1) {
+			font-size: 1.2rem;
+			font-weight: bold;
+			margin-bottom: 0.5rem;
+			color: rgba(0, 0, 0, 0.6);
+		}
+
+		p:nth-child(2) {
+			font-weight: 600;
+			color: rgba(0, 0, 0, 0.5);
+		}
+	}
+}
+
+.hrefs {
+	width: 90vw;
+	margin: 60% auto;
+}
+
+.hrefs_context {
+	display: flex;
+	/* transform: all 0.3s ease;
+	&:hover {
+		background-color: #00a8ff;
+	}
+	&:not(:hover) {
+		transform: all 0.3s ease;
+	}
+	&:hover + .hrefs_context {
+		background-color: aqua;
+		transition: scale(1.1);
+	} */
+
+	div:nth-child(1) {
+		margin: 1rem;
+	}
+
+}
+
+.hrefs_text {
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+
+	font-size: 0.7rem;
+	color: rgba(0, 0, 0, 0.5);
+	font-weight: 600;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+	&:hover {
+		background-color: rgba(0, 0, 0, 0.05);
+		transition: all 0.4s ease;
+		/* border-radius: 50px; */
+	}
+
+	div:nth-child(1) {
+		width: 17%;
+	}
+
+	div:nth-child(2) {
+		width: 5%;
+		border: 0;
+	}
+}
+
+.exit {
+	width: 90%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	margin: -45% auto;
+	text-align: center;
+	border-radius: 20px;
+	background-color: #f2f2f2;
+	color: rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+
+	&:hover {
+		background-color: rgb(245, 214, 214);
+		color: rgba(0, 0, 0, 0.7);
+		transition: all 0.3s ease;
+	}
+}
+
+
+
+.loadingWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.loadingIcon {
+  display: inline-block;
+  font-size: 0;
+}

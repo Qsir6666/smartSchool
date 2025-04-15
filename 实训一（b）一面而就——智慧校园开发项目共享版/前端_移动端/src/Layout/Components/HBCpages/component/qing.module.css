@@ -1,0 +1,74 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pickerContainer {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.pickerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f8f9fa;
+  padding: 12px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pickerContent:hover {
+  background: #e9ecef;
+  transform: translateY(-1px);
+}
+
+.pickerLabel {
+  font-size: 16px;
+  color: #495057;
+  font-weight: 500;
+}
+
+.pickerIcon {
+  color: #6c757d;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.pickerContent:hover .pickerIcon {
+  transform: rotate(180deg);
+}
+
+.calendar {
+  display: flex;
+  align-items: center;
+  background: #4a90e2;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.calendar:hover {
+  background: #357abd;
+  transform: translateY(-1px);
+}
+
+.calendarIcon {
+  margin-right: 8px;
+  font-size: 18px;
+} 

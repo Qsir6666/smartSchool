@@ -1,0 +1,19 @@
+[data-tailwind-scope] {
+    all: initial; /* 阻断外部样式继承 */
+    contain: style layout paint; /* 现代浏览器隔离 */
+  }
+  
+  [data-tailwind-scope] * {
+    all: unset; /* 重置子元素默认样式 */
+  }
+
+
+  
+.Kqtj_topicon{
+    display: flex;
+    align-self: center;
+}
+.Kqtj_topicon svg{
+    margin-top: 5px;
+    margin-right: 5px;
+}

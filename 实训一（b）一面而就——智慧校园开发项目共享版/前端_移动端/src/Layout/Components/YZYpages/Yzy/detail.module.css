@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+}
+.content {
+    flex: 1;
+    padding: 16px;
+}
+.boxHerd{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.boxHerdTow{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.description {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.5;
+}
+.imageContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.previewImage {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+.previewImage:hover {
+    opacity: 0.8;
+}
+.central{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.centralTow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+.centralTow:last-child {
+    border-bottom: none;
+}
+.centralP{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 5vw;
+    color: rgb(111, 110, 110);
+}
+.value {
+    color: #666;
+    font-size: 14px;
+}
+.processSection {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+}
+.processSection h3 {
+    margin: 0 0 16px;
+    font-size: 16px;
+    color: #333;
+}
+.stepsContainer {
+    margin-bottom: 24px;
+}
+.assignButton {
+    width: 100%;
+    height: 44px;
+    font-size: 16px;
+    border-radius: 22px;
+    background-color: #1890ff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.assignButton:hover {
+    background-color: #40a9ff;
+}
+.assignButton:active {
+    background-color: #096dd9;
+}
+

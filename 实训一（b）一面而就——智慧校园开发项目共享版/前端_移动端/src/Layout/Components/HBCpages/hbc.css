@@ -1,0 +1,148 @@
+.navtil{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.deng{
+    position:fixed;
+    bottom: 1px;
+}
+.deng-main{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left: 10%;
+    flex-wrap: wrap;
+}
+.main-lie{
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    width: 120px;
+    font-size: 16px;
+    flex-shrink: 0;
+}
+.xlie{
+display: flex;
+justify-content: space-between;
+font-size: 18px;
+margin-top: 10px;
+}
+.b-nav{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-duan{
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+    
+}
+.duan-sh{
+    border-bottom: 3px solid royalblue;
+    color: blue;
+    
+}
+.xb-main{
+    background-color: rgb(247, 247, 247);
+}
+.xb-m-mean{
+    width: 80%;
+    margin-left: 10%;
+/* color: rgb(255, 255, 255); */
+}
+.xb-m-teat{
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+/* 组块列表 xialie*/
+/* shen */
+.s-zi{
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.t-shu{
+    width: 80%;
+    margin-left: 10%;
+    
+
+}
+.t-shu p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(165, 165, 165);
+}
+/*  */
+.camera-auth {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.camera-auth video {
+  width: 100%;
+  height: auto;
+  max-height: 65vh;
+  border-radius: 12px;
+  transform: scaleX(-1); /* 镜像翻转（更像原生相机） */
+  margin-bottom: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+  
+.capture-btn {
+  position: relative;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #1677ff, #4096ff);
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(22, 119, 255, 0.3);
+  transition: all 0.3s ease;
+  margin-top: 15px;
+}
+
+.capture-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(22, 119, 255, 0.4);
+}
+
+.preview-image {
+  transform: scaleX(-1); /* 镜像翻转（更像原生相机） */
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.review-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.error {
+  color: #ff4d4f;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff2f0;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+/* ai对话 */

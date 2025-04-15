@@ -1,0 +1,188 @@
+.piker_title {
+    letter-spacing: -0.5px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.BjkqPage {
+    --rv-search-padding: 5px 10px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.BjkqPage::-webkit-scrollbar {
+    display: none;
+}
+
+.BjkqPage_search {
+    background-color: whitesmoke;
+    position: fixed;
+    top: 40px;
+    width: 100%;
+    z-index: 1000;
+}
+
+.BjkqPage_search_layout {
+    height: 54px;
+}
+
+
+.BjkqPage_item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 5px;
+    border-radius: 5px;
+    padding: 8px 10px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.item_title {
+    display: flex;
+    align-items: center;
+}
+
+.item_title span:first-child {
+    background-color: #00A8FF;
+    color: white;
+    font-size: 13px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 8px;
+}
+
+.item_title span:last-child {
+    font-size: 13px;
+}
+
+.BjkqPage_footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+.BjkqPage_footer_layout {
+    height: 50px;
+}
+
+.BjkqPage_footer_item_bottom {
+    font-size: 12.5px;
+    color: gray;
+}
+
+.BjkqPage_footer_button button {
+    border: 0;
+    background-color: #F19548;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12.5px;
+}
+
+.BjkqPage_search1 {
+    padding: 3px 10px !important;
+    box-shadow: 0px 4px 8px rgba(148, 148, 148, 0.1);
+}
+
+.BjkqPage_teacher {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.BjkqPage_teacher span:first-child {
+    background-color: #F19548;
+    color: white;
+    font-size: 13px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 8px;
+}
+
+.BjkqPage_teacher span:last-child {
+    font-size: 13px;
+    padding-right: 5px;
+}
+
+.BjkqPage_teacher_left {
+    display: flex;
+    align-items: center;
+}
+
+.BjkqPage_footer_item_date {
+    display: flex;
+    align-items: center;
+}
+
+.isNotTodayCssT {
+    color: rgb(145, 145, 145);
+}
+
+.isNotTodayCssI {
+    background-color: #7abedf !important;
+}
+
+
+/* 水印样式 */
+.watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.15);
+    white-space: nowrap;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+
+.BjkqPage .rv-popover {
+    z-index: 9999 !important;
+    position: relative;
+}
+.BjkqPage .rv-popover__content {
+    position: fixed !important;
+
+}
+.rv-popover__content {
+    transform: translateZ(0);
+}
+
+
+
+
+.BjkqPage_item {
+    transition: background-color 0.3s ease;
+  }
+
+
+
+
+
+
+
+  

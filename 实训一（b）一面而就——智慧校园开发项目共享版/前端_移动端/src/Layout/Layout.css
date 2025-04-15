@@ -1,0 +1,32 @@
+.LayoutPage{
+    display: flex;
+    flex-direction: column;
+    height:100vh ;
+}
+.LayoutPage_content {
+    overflow-y: auto; 
+    -webkit-overflow-scrolling: touch; 
+}
+
+.LayoutPage_tabbar{
+    border-top: 1px solid #ececec;
+}
+.LayoutPage_tabbar .adm-tab-bar-item{
+    margin: 0px 0 6px 0;
+}
+.LayoutPage_tabbar .adm-tab-bar-item .adm-tab-bar-item-icon{
+    box-sizing: border-box;
+    padding-top: 3px;
+}
+.LayoutPage_tabbar .adm-tab-bar-item .adm-tab-bar-item-title{
+    padding-top: 1px;
+}
+.LayoutPage_tabbar .adm-tab-bar-item-active{
+    color: #009BFF;
+}
+/* #60B6FA */
+.AddIcon{
+    margin-top: -7px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(27, 27, 27, 0.3);
+}
