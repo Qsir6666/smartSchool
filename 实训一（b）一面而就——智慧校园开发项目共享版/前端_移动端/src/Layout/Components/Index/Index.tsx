@@ -29,9 +29,9 @@ const App: React.FC = () => {
             // 单次遍历计算所有数值
             let num1 = 0, num2 = 0, num3 = 0;
             res.data.data.forEach(item => {
-                if (item.num === '1') num1++;
-                else if (item.num === '2') num2++;
-                else if (item.num === '3') num3++;
+                if (item.num == '1') num1++;
+                else if (item.num == '2') num2++;
+                else if (item.num == '3') num3++;
             });
 
             // 单次状态更新
@@ -172,8 +172,8 @@ const App: React.FC = () => {
                             <p>待审核</p>
                         </div>
                         <div className={style.item_left_content}>
-                            <p>安全隐患类</p>
-                            <p>您有{num1}条待审核隐患，请及时处理</p>
+                            <p>待审核工作</p>
+                            <p>您有{num1}条待审核工作，请及时审核</p>
                         </div>
                     </div>
                     <div className={style.item_right} onClick={() => { goShenhe() }}>
@@ -188,8 +188,8 @@ const App: React.FC = () => {
                             <p>待处理</p>
                         </div>
                         <div className={style.item_left_content}>
-                            <p>安全隐患类</p>
-                            <p>您有{num2}条待处理隐患，请及时处理</p>
+                            <p>未处理信息</p>
+                            <p>您有{num2}条待处理信息，请及时处理</p>
                         </div>
                     </div>
                     <div className={style.item_right} onClick={() => { goChuli() }}>
@@ -205,8 +205,8 @@ const App: React.FC = () => {
                             <p>待验收</p>
                         </div>
                         <div className={style.item_left_content}>
-                            <p>安全隐患类</p>
-                            <p>您有{num3}条待验收隐患，请及时处理</p>
+                            <p>待验收工作</p>
+                            <p>您有{num3}条待验收工作，请及时处理</p>
                         </div>
                     </div>
                     <div className={style.item_right} onClick={() => { goYanshou() }}>
